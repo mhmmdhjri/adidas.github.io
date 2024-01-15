@@ -1,0 +1,492 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="src/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="src/adidas.svg" type="image/x-icon">
+  <title>Adidas store © </title>
+</head>
+
+<body class="bg-slate-500">
+  <header class=" bg-white top-0 left-0 w-full z-50 flex items-center sticky">
+    <div class="w-full ml-auto mr-auto px-[16px] py-[16px]">
+        <div class="relative flex justify-between items-center">
+          <h1 class="w-3/12">
+            <a href="">
+              <svg role="img" width="60px" class="ml-5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Adidas</title><path d="M11.936 17.952c0-.644.517-1.16 1.162-1.16.644 0 1.16.516 1.16 1.16a1.157 1.157 0 01-1.16 1.161 1.157 1.157 0 01-1.162-1.16m4.724 0c0-.645.517-1.162 1.161-1.162s1.161.517 1.161 1.161-.517 1.161-1.16 1.161a1.157 1.157 0 01-1.162-1.16m-10.95 0c0-.645.517-1.162 1.161-1.162s1.16.517 1.16 1.161-.516 1.161-1.16 1.161a1.157 1.157 0 01-1.161-1.16m-4.724 0c0-.645.517-1.162 1.161-1.162s1.161.517 1.161 1.161a1.157 1.157 0 01-1.161 1.161 1.157 1.157 0 01-1.16-1.16m9.55-2.052h-1.01v4.063h1.01v-4.063zM3.3 19.964h1.01v-4.063H3.3v.326a2.087 2.087 0 00-1.2-.374c-1.162 0-2.1.938-2.1 2.1 0 1.168.938 2.099 2.1 2.099.445 0 .858-.135 1.2-.374v.286zm15.674 0h1.01v-4.063h-1.01v.326a2.087 2.087 0 00-1.2-.374c-1.162 0-2.1.938-2.1 2.1a2.092 2.092 0 002.1 2.099c.445 0 .858-.135 1.2-.374v.286zm1.384-1.32c.032.82.732 1.4 1.9 1.4.955 0 1.742-.414 1.742-1.328 0-.636-.358-1.01-1.185-1.17l-.644-.126c-.414-.08-.7-.16-.7-.406 0-.27.278-.39.628-.39.51 0 .716.255.732.557h1.018c-.056-.795-.692-1.328-1.718-1.328-1.057 0-1.686.58-1.686 1.336 0 .922.748 1.073 1.392 1.193l.533.095c.382.072.549.183.549.406 0 .199-.191.397-.645.397-.66 0-.874-.342-.882-.636h-1.034zM8.024 14.517v1.71a2.087 2.087 0 00-1.2-.374c-1.162 0-2.1.938-2.1 2.1 0 1.168.938 2.099 2.1 2.099.444 0 .858-.135 1.2-.374v.286h1.01v-5.447h-1.01zm6.226 0v1.71a2.087 2.087 0 00-1.2-.374c-1.161 0-2.1.938-2.1 2.1a2.092 2.092 0 002.1 2.099c.445 0 .858-.135 1.2-.374v.286h1.01v-5.447h-1.01zm-11.626-1.2l.684 1.2h4.716l-1.869-3.229-3.53 2.028zm7.913 2.21v-1.01h3.713l-3.96-6.855L6.751 9.69l2.776 4.827v1.01h1.01zm5.217-1.01h4.723L14.37 3.948l-3.531 2.036 4.915 8.533z"/></svg>
+            </a>
+          </h1>
+          <div class="flex items-center ">
+            <button id="hamburger" name="hamburger" type="button" class="absolute block right-4 lg:hidden ">
+              <span class="hamburger-line  origin-top-left transition duration-500 ease-in-out"></span>
+              <span class="hamburger-line transition duration-500 ease-in-out"></span>
+              <span class="hamburger-line  origin-bottom-left transition duration-500 ease-in-out"></span>
+            </button>
+            <nav id="nav-menu" class="absolute py-6 right-4 max-w-[250px] bg-white top-full rounded-lg shadow-lg w-full hidden lg:block lg:static lg:max-w-full lg:bg-transparent lg:shadow-none">
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a href="#" class="text-base py-2 mx-8 flex group-hover:text-slate-500 p-3 border-b-2 border-slate-500 border-opacity-0 hover:border-opacity-100 hover:text-slate-500 duration-200 cursor-pointer active lg:p-4 group">Home</a>
+                </li>
+                <li class="group">
+                  <a href="#" class="text-base py-2 mx-8 flex group-hover:text-slate-500 p-3 border-b-2  border-slate-500 border-opacity-0 hover:border-opacity-100 hover:text-slate-500 duration-200 cursor-pointer lg:p-4 lg:block group ">Picture</a>
+                </li>
+                <li class="group">
+                  <a href="#" class="text-base py-2 mx-8 flex group-hover:text-slate-500 p-3 border-b-2  border-slate-500 border-opacity-0 hover:border-opacity-100 hover:text-slate-500 duration-200 cursor-pointer lg:p-4 lg:block group">Product</a>
+                </li>
+                <li class="group">
+                  <a href="#" class="text-base py-2 mx-8 flex group-hover:text-slate-500 p-3 border-b-2  border-slate-500 border-opacity-0 hover:border-opacity-100 hover:text-slate-500 duration-200 cursor-pointer lg:p-4 lg:block group" >Social Media</a>
+                </li>
+              </ul>
+            </nav>
+        </div>
+    </div>
+   </header>
+ 
+
+  <!-- section home start -->
+  <section id="home">
+    <div class="w-full relative h-screen">
+      <video class="w-full h-full relative object-cover " autoplay muted playsinline>
+        <source src="src/bg.mp4" type="video/mp4">
+      </video>
+      <div class="absolute top-0 left-0 w-full h-full  ">
+        <div class="absolute w-full h-full justify-center text-center top-0 left-0 flex flex-col">
+          <h1 class="text-4xl mb-4 font-bold text-white md:text-5xl md:mb-5"><span class="italic text-white"> <span
+                class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-white relative inline-block">
+                <span class="relative text-black">adidas</span>
+              </span> </span>Official store</h1>
+          <p class="text-lg mb-3 text-white md:text-2xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          <div class="flex flex-row justify-center">
+            <button
+              class="text-black bg-white mr-3 font-semibold text-lg py-2 border rounded-lg px-3 transition duration-500 ease-in-out hover:text-white hover:bg-transparent ">Order
+              Now</button>
+            <button
+              class="text-white bg-black font-semibold bg-transparent text-lg py-2 border rounded-lg px-3 transition duration-500 ease-in-out hover:text-black hover:bg-white ">Follow
+              us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section home end -->
+
+  <!-- section picture start -->
+  <section id="picture" class="bg-slate-500">
+    <div class="max-w-[1240px] mx-auto py-20 px-4 text-center">
+      <h1 class="font-bold text-3xl mb-5 ">ALL &nbsp; <span class="italic text-white"> <span
+            class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-black relative inline-block">
+            <span class="relative text-white">PRODUCTS </span></span> &nbsp; <span class="text-black">HERE 100% ORIGINAL
+          </span></h1>
+      <p class="font-semibold text-red-600 mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti,
+        mollitia !!!</p>
+
+      <div class="grid grid-rows-none gap-2  md:grid-cols-5">
+       
+          <video class=" relative  mb-3 border-black  object-cover col-span-2 md:col-span-3 row-span-2 w-full h-full" controls unmuted autoplay>
+            <source src="src/y2mate.com - Adidas Galaxy 6 Black White  Unboxing  On Feet_1080p.mp4" type="video/mp4">
+          </video>
+        <img class="mb-3 border-black w-full h-full object-cover" src="src/s6.png" alt="">
+        <img class="mb-3 border-black w-full h-full object-cover" src="src/s3.png" alt="">
+        <img class="mb-3 border-black w-full h-full object-cover" src="src/s4.png" alt="">
+        <img class="mb-3 border-black w-full h-full object-cover" src="src/s5.png" alt="">
+      </div>
+    </div>
+
+
+
+
+
+
+<!-- source: https://github.com/mfg888/Responsive-Tailwind-CSS-Grid/blob/main/index.html -->
+
+
+
+<!-- ✅ Grid Section - Starts Here 👇 -->
+<section id="Projects"
+  class="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
+
+  <!--   ✅ Product card 1 - Starts Here 👇 -->
+  <div class="w-72 bg-gray-500 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+      <a href="#">
+          <img src="src/terrrex.png"
+                  alt="Product" class="h-70 w-62 object-cover rounded-t-xl" />
+          <div class="px-4 py-3 w-72">
+              <span class="text-gray-400 mr-3 uppercase text-xs">Running</span>
+              <p class="text-lg font-bold text-black truncate block capitalize">Adidas Terrex</p>
+              <div class="flex items-center">
+                  <p class="text-lg font-semibold text-black cursor-auto my-3">$149</p>
+                  <del>
+                      <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
+                  </del>
+                  <div class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                          fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd"
+                              d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
+                          <path
+                              d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                      </svg></div>
+              </div>
+          </div>
+      </a>
+  </div>
+  <!--   🛑 Product card 1 - Ends Here  -->
+
+  <!--   ✅ Product card 2 - Starts Here 👇 -->
+  <div class="w-72 bg-gray-500 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+    <a href="#">
+        <img src="src/mess.png"
+                alt="Product" class="h-70 w-62 object-cover rounded-t-xl" />
+        <div class="px-4 py-3 w-72">
+            <span class="text-gray-400 mr-3 uppercase text-xs">Football</span>
+            <p class="text-lg font-bold text-black truncate block capitalize">Sepatu Messi 10</p>
+            <div class="flex items-center">
+                <p class="text-lg font-semibold text-black cursor-auto my-3">$149</p>
+                <del>
+                    <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
+                </del>
+                <div class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                        fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
+                        <path
+                            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                    </svg></div>
+            </div>
+        </div>
+    </a>
+</div>
+  <!--   🛑 Product card 2- Ends Here  -->
+
+  <!--   ✅ Product card 3 - Starts Here 👇 -->
+  <div class="w-72 bg-gray-500 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+    <a href="#">
+        <img src="src/rivlry.png"
+                alt="Product" class="h-70 w-62 object-cover rounded-t-xl" />
+        <div class="px-4 py-3 w-72">
+            <span class="text-gray-400 mr-3 uppercase text-xs">cassual</span>
+            <p class="text-lg font-bold text-black truncate block capitalize">Rivalry</p>
+            <div class="flex items-center">
+                <p class="text-lg font-semibold text-black cursor-auto my-3">$149</p>
+                <del>
+                    <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
+                </del>
+                <div class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                        fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
+                        <path
+                            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                    </svg></div>
+            </div>
+        </div>
+    </a>
+</div>
+  <!--   🛑 Product card 3 - Ends Here  -->
+
+  <!--   ✅ Product card 4 - Starts Here 👇 -->
+  <div class="w-72 bg-gray-500 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+    <a href="#">
+        <img src="src/og.png"
+                alt="Product" class="h-70 w-62 object-cover rounded-t-xl" />
+        <div class="px-4 py-3 w-72">
+            <span class="text-gray-400 mr-3 uppercase text-xs">cassual</span>
+            <p class="text-lg font-bold text-black truncate block capitalize">Samba OG</p>
+            <div class="flex items-center">
+                <p class="text-lg font-semibold text-black cursor-auto my-3">$149</p>
+                <del>
+                    <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
+                </del>
+                <div class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                        fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
+                        <path
+                            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                    </svg></div>
+            </div>
+        </div>
+    </a>
+</div>
+  <!--   🛑 Product card 4 - Ends Here  -->
+
+  <!--   ✅ Product card 5 - Starts Here 👇 -->
+  <div class="w-72 bg-gray-500 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+    <a href="#">
+        <img src="src/trae young.png"
+                alt="Product" class="h-70 w-62 object-cover rounded-t-xl" />
+        <div class="px-4 py-3 w-72">
+            <span class="text-gray-400 mr-3 uppercase text-xs">Basketball</span>
+            <p class="text-lg font-bold text-black truncate block capitalize">Trae Young 02</p>
+            <div class="flex items-center">
+                <p class="text-lg font-semibold text-black cursor-auto my-3">$149</p>
+                <del>
+                    <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
+                </del>
+                <div class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                        fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
+                        <path
+                            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                    </svg></div>
+            </div>
+        </div>
+    </a>
+</div>
+
+
+  <!--   ✅ Product card 6 - Starts Here 👇 -->
+  <div class="w-72 bg-gray-500 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+    <a href="#">
+        <img src="src/ultraboost.png"
+                alt="Product" class="h-70 w-62 object-cover rounded-t-xl" />
+        <div class="px-4 py-3 w-72">
+            <span class="text-gray-400 mr-3 uppercase text-xs">Running</span>
+            <p class="text-lg font-bold text-black truncate block capitalize">Adidas Ultraboost</p>
+            <div class="flex items-center">
+                <p class="text-lg font-semibold text-black cursor-auto my-3">$149</p>
+                <del>
+                    <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
+                </del>
+                <div class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                        fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
+                        <path
+                            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                    </svg></div>
+            </div>
+        </div>
+    </a>
+</div>
+  <!--   🛑 Product card 6 - Ends Here  -->
+
+</section>
+
+<!-- 🛑 Grid Section - Ends Here -->
+
+
+
+
+<!-- Support Me 🙏🥰 -->
+<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+<script>
+  kofiWidgetOverlay.draw('mhmmdhjri', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Support me',
+    'floating-chat.donateButton.background-color': '#00bfa5',
+    'floating-chat.donateButton.text-color': '#fff'
+  });
+</script>
+
+
+
+
+
+  </section>
+
+
+
+
+
+
+
+
+
+  <!-- section picture end -->
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e3caaf" fill-opacity="1" d="M0,128L0,320L55.4,320L55.4,256L110.8,256L110.8,32L166.2,32L166.2,288L221.5,288L221.5,192L276.9,192L276.9,192L332.3,192L332.3,288L387.7,288L387.7,128L443.1,128L443.1,160L498.5,160L498.5,64L553.8,64L553.8,0L609.2,0L609.2,160L664.6,160L664.6,192L720,192L720,288L775.4,288L775.4,160L830.8,160L830.8,224L886.2,224L886.2,160L941.5,160L941.5,224L996.9,224L996.9,288L1052.3,288L1052.3,256L1107.7,256L1107.7,224L1163.1,224L1163.1,64L1218.5,64L1218.5,96L1273.8,96L1273.8,160L1329.2,160L1329.2,64L1384.6,64L1384.6,96L1440,96L1440,320L1384.6,320L1384.6,320L1329.2,320L1329.2,320L1273.8,320L1273.8,320L1218.5,320L1218.5,320L1163.1,320L1163.1,320L1107.7,320L1107.7,320L1052.3,320L1052.3,320L996.9,320L996.9,320L941.5,320L941.5,320L886.2,320L886.2,320L830.8,320L830.8,320L775.4,320L775.4,320L720,320L720,320L664.6,320L664.6,320L609.2,320L609.2,320L553.8,320L553.8,320L498.5,320L498.5,320L443.1,320L443.1,320L387.7,320L387.7,320L332.3,320L332.3,320L276.9,320L276.9,320L221.5,320L221.5,320L166.2,320L166.2,320L110.8,320L110.8,320L55.4,320L55.4,320L0,320L0,320Z"></path></svg>
+  <section class="contact dark:bg-gray-900">
+    <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white"><span
+          class="italic text-white"> <span
+            class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-black relative inline-block">
+            <span class="relative text-white">Contact </span>
+          </span> <span class="text-black">Us</span> </h2>
+      <p class="mb-8 lg:mb-16 font-light text-center text-black dark:text-black sm:text-xl">Lorem ipsum, dolor sit amet
+        consectetur adipisicing elit. Nulla tempore cum totam molestias aperiam sit.</p>
+      <div class="container my-24 mx-auto md:px-6">
+        <!-- Section: Design Block -->
+        <section id="contact" class="mb-32">
+          <div
+            class="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+            <div class="flex flex-wrap items-center">
+              <div class="block w-full shrink-0 grow-0 basis-auto lg:flex lg:w-6/12 xl:w-4/12">
+                <div class="h-[500px] w-full">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.826277796099!2d106.64864847470076!3d-6.668437593326568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69d11ea14dab19%3A0x5371cfded50602c4!2sIDN%20Camping%20Ground%20Pamijahan!5e0!3m2!1sid!2sid!4v1704858419731!5m2!1sid!2sid"
+                    class="left-0 top-0 h-full w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" frameborder="0"
+                    allowfullscreen></iframe>
+                </div>
+              </div>
+              <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 xl:w-8/12">
+                <div class="flex flex-wrap px-3 pt-12 pb-12 md:pb-0 lg:pt-0">
+                  <div
+                    class="mb-12 w-full shrink-0 grow-0 basis-auto px-3 md:w-6/12 md:px-6 lg:w-full xl:w-6/12 xl:px-12">
+                    <div class="flex items-start">
+                      <div class="shrink-0">
+                        <div class="inline-block rounded-md bg-primary-100 p-4 text-primary">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                            stroke="currentColor" class="h-6 w-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0l6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 014.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 00-.38 1.21 12.035 12.035 0 007.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 011.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 01-2.25 2.25h-2.25z" />
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="ml-6 grow">
+                        <p class="mb-2 font-bold dark:text-white">
+                          Technical support
+                        </p>
+                        <p class="text-neutral-500 dark:text-neutral-200">
+                          support@example.com
+                        </p>
+                        <p class="text-neutral-500 dark:text-neutral-200">
+                          +1 234-567-89
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="mb-12 w-full shrink-0 grow-0 basis-auto px-3 md:w-6/12 md:px-6 lg:w-full xl:w-6/12 xl:px-12">
+                    <div class="flex items-start">
+                      <div class="shrink-0">
+                        <div class="inline-block rounded-md bg-primary-100 p-4 text-primary">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                            stroke="currentColor" class="h-6 w-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z" />
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="ml-6 grow">
+                        <p class="mb-2 font-bold dark:text-white">
+                          Sales questions
+                        </p>
+                        <p class="text-neutral-500 dark:text-neutral-200">
+                          sales@example.com
+                        </p>
+                        <p class="text-neutral-500 dark:text-neutral-200">
+                          +1 234-567-89
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="mb-12 w-full shrink-0 grow-0 basis-auto px-3 md:w-6/12 md:px-6 lg:w-full xl:mb-0 xl:w-6/12 xl:px-12">
+                    <div class="align-start flex">
+                      <div class="shrink-0">
+                        <div class="inline-block rounded-md bg-primary-100 p-4 text-primary">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                            stroke="currentColor" class="h-6 w-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5M6 7.5h3v3H6v-3z" />
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="ml-6 grow">
+                        <p class="mb-2 font-bold dark:text-white">Press</p>
+                        <p class="text-neutral-500 dark:text-neutral-200">
+                          press@example.com
+                        </p>
+                        <p class="text-neutral-500 dark:text-neutral-200">
+                          +1 234-567-89
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-full shrink-0 grow-0 basis-auto px-3 md:w-6/12 md:px-6 lg:w-full xl:w-6/12 xl:px-12">
+                    <div class="align-start flex">
+                      <div class="shrink-0">
+                        <div class="inline-block rounded-md bg-primary-100 p-4 text-primary">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                            stroke="currentColor" class="h-6 w-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M12 12.75c1.148 0 2.278.08 3.383.237 1.037.146 1.866.966 1.866 2.013 0 3.728-2.35 6.75-5.25 6.75S6.75 18.728 6.75 15c0-1.046.83-1.867 1.866-2.013A24.204 24.204 0 0112 12.75zm0 0c2.883 0 5.647.508 8.207 1.44a23.91 23.91 0 01-1.152 6.06M12 12.75c-2.883 0-5.647.508-8.208 1.44.125 2.104.52 4.136 1.153 6.06M12 12.75a2.25 2.25 0 002.248-2.354M12 12.75a2.25 2.25 0 01-2.248-2.354M12 8.25c.995 0 1.971-.08 2.922-.236.403-.066.74-.358.795-.762a3.778 3.778 0 00-.399-2.25M12 8.25c-.995 0-1.97-.08-2.922-.236-.402-.066-.74-.358-.795-.762a3.734 3.734 0 01.4-2.253M12 8.25a2.25 2.25 0 00-2.248 2.146M12 8.25a2.25 2.25 0 012.248 2.146M8.683 5a6.032 6.032 0 01-1.155-1.002c.07-.63.27-1.222.574-1.747m.581 2.749A3.75 3.75 0 0115.318 5m0 0c.427-.283.815-.62 1.155-.999a4.471 4.471 0 00-.575-1.752M4.921 6a24.048 24.048 0 00-.392 3.314c1.668.546 3.416.914 5.223 1.082M19.08 6c.205 1.08.337 2.187.392 3.314a23.882 23.882 0 01-5.223 1.082" />
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="ml-6 grow">
+                        <p class="mb-2 font-bold dark:text-white">Bug report</p>
+                        <p class="text-neutral-500 dark:text-neutral-200">
+                          bugs@example.com
+                        </p>
+                        <p class="text-neutral-500 dark:text-neutral-200">
+                          +1 234-567-89
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+
+
+
+          <!-- socmed end -->
+
+          <footer class="bg-neutral-200 text-center dark:bg-neutral-700 lg:text-left">
+            <div class="p-4 text-center text-neutral-700 dark:text-neutral-200">
+              © 2024 Copyright:
+              <a class="text-neutral-800 dark:text-neutral-400" href="https://tw-elements.com/">Muhammad Hijri</a>
+            </div>
+          </footer>
+        </section>
+        <!-- Section: Design Block -->
+      </div>
+
+    </div>
+  </section>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e3caaf" fill-opacity="1" d="M0,64L0,160L80,160L80,64L160,64L160,224L240,224L240,32L320,32L320,320L400,320L400,256L480,256L480,160L560,160L560,64L640,64L640,160L720,160L720,288L800,288L800,160L880,160L880,256L960,256L960,192L1040,192L1040,32L1120,32L1120,160L1200,160L1200,96L1280,96L1280,128L1360,128L1360,32L1440,32L1440,0L1360,0L1360,0L1280,0L1280,0L1200,0L1200,0L1120,0L1120,0L1040,0L1040,0L960,0L960,0L880,0L880,0L800,0L800,0L720,0L720,0L640,0L640,0L560,0L560,0L480,0L480,0L400,0L400,0L320,0L320,0L240,0L240,0L160,0L160,0L80,0L80,0L0,0L0,0Z"></path></svg>
+    <!-- section social media -->
+    <section id="social">
+      <div class="max-w-[1240px] mx-auto py-16 px-4">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4  mb-3 lg:w-1/2 ">
+            <h1 class="font-bold text-xl text-white mb-2"><span class="italic text-white"> <span
+              class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-white relative inline-block">
+              <span class="relative text-black">About</span>
+            </span>  Us</h1>
+            <h3 class="font-semibold text-2xl text-white uppercase mb-2">Lorem ipsum dolor tuing elit. Esse, obcaecati!</h3>
+            <p class="mb-3 text-white">Lorem ips consectlit. Molestiae, saepe maiores stis, omnis dignissimos velit voluptate eumibus quae.</p>
+          </div>
+          <div class="w-full px-4 mb-3 lg:w-1/2">
+            <h1 class="font-semibold text-2xl text-white mb-2">Social<span class="italic text-white"> <span
+              class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-white relative inline-block">
+              <span class="relative text-black">Media</span>
+            </span> </h1>
+            <p class="mb-3 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, quisquam!</p>
+            <div class="flex item-center ">
+              <a href="https://www.instagram.com/mhmmdhjri__/" class="border rounded-full w-9 h-9 flex justify-center items-center  hover:bg-gradient-to-tr from-red-600 to-blue-500 hover:text-white transition duration-500 ease-in-out ">
+                <svg xmlns="http://www.w3.org/2000/svg"  role="img" width="20px" class="fill-current" viewBox="0 0 24 24"><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg>
+              </a>
+              <a href="https://youtube.com/@MuhammadHijri-pw2li?si=e8YSaXtn-OHES13q" class="border rounded-full w-9 h-9 flex justify-center items-center ml-4 hover:text-white hover:bg-red-600 transition duration-500 ease-in-out ">
+                <svg role="img" width="20px" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>YouTube</title><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+              </a>
+              <a href="https://twitter.com/A_ZeeJKT48" class="border rounded-full w-9 h-9 flex justify-center items-center ml-4 hover:bg-black hover:text-white transition duration-500 ease-in-out ">
+                <svg role="img" class="fill-current" width="20px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>X</title><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
+              </a>
+              <a href="https://www.facebook.com/adidasID/?brand_redir=145323565659767" class="border rounded-full w-9 h-9 flex justify-center items-center ml-4 hover:bg-blue-500 hover:text-white transition duration-500 ease-in-out  ">
+                <svg role="img" width="20px" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg>
+              </a>
+              <a href="https://www.adidas.co.id/season-sale.html?gad_source=1&gclid=CjwKCAiA-vOsBhAAEiwAIWR0TX-a-R3u69CSh2qmrCzNcyy2eMmphPh02OG9FKfn8PeiZHEILEiahBoC1jUQAvD_BwE&gclsrc=aw.ds" class="border rounded-full w-9 h-9 flex justify-center items-center ml-4 hover:text-orange-500  hover:bg-white transition duration-500 ease-in-out "> 
+                <svg role="img" width="20px" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Shopee</title><path d="M15.9414 17.9633c.229-1.879-.981-3.077-4.1758-4.0969-1.548-.528-2.277-1.22-2.26-2.1719.065-1.056 1.048-1.825 2.352-1.85a5.2898 5.2898 0 0 1 2.8838.89c.116.072.197.06.263-.039.09-.145.315-.494.39-.62.051-.081.061-.187-.068-.281-.185-.1369-.704-.4149-.983-.5319a6.4697 6.4697 0 0 0-2.5118-.514c-1.909.008-3.4129 1.215-3.5389 2.826-.082 1.1629.494 2.1078 1.73 2.8278.262.152 1.6799.716 2.2438.892 1.774.552 2.695 1.5419 2.478 2.6969-.197 1.047-1.299 1.7239-2.818 1.7439-1.2039-.046-2.2878-.537-3.1278-1.19l-.141-.11c-.104-.08-.218-.075-.287.03-.05.077-.376.547-.458.67-.077.108-.035.168.045.234.35.293.817.613 1.134.775a6.7097 6.7097 0 0 0 2.8289.727 4.9048 4.9048 0 0 0 2.0759-.354c1.095-.465 1.8029-1.394 1.9449-2.554zM11.9986 1.4009c-2.068 0-3.7539 1.95-3.8329 4.3899h7.6657c-.08-2.44-1.765-4.3899-3.8328-4.3899zm7.8516 22.5981-.08.001-15.7843-.002c-1.074-.04-1.863-.91-1.971-1.991l-.01-.195L1.298 6.2858a.459.459 0 0 1 .45-.494h4.9748C6.8448 2.568 9.1607 0 11.9996 0c2.8388 0 5.1537 2.5689 5.2757 5.7898h4.9678a.459.459 0 0 1 .458.483l-.773 15.5883-.007.131c-.094 1.094-.979 1.9769-2.0709 2.0059z"/></svg>
+              </a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="1" d="M0,96L0,128L96,128L96,224L192,224L192,256L288,256L288,256L384,256L384,160L480,160L480,96L576,96L576,160L672,160L672,192L768,192L768,192L864,192L864,288L960,288L960,192L1056,192L1056,288L1152,288L1152,224L1248,224L1248,224L1344,224L1344,192L1440,192L1440,320L1344,320L1344,320L1248,320L1248,320L1152,320L1152,320L1056,320L1056,320L960,320L960,320L864,320L864,320L768,320L768,320L672,320L672,320L576,320L576,320L480,320L480,320L384,320L384,320L288,320L288,320L192,320L192,320L96,320L96,320L0,320L0,320Z"></path></svg>
+
+
+
+    <script src="src/js/script.js"></script> 
+</body>
+
+</html>
